@@ -1,0 +1,76 @@
+/* ViewJobDetails.css */
+.job-details-page {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .job-info, .ph-member-info, .recruitment-rounds {
+    margin-bottom: 20px;
+  }
+  
+  h1, h2, h3, h4 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .rounds-tracker {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .recruitment-round {
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .recruitment-round.completed {
+    background-color: #d4edda;
+    border-left: 5px solid #28a745;
+  }
+  
+  .recruitment-round.upcoming {
+    background-color: white;/* Light grey background */
+    border-left: 5px solid #333333; /* Dark grey/black border */
+}
+  
+  .back-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .back-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .congratulations-message {
+    color: #28a745;  /* Green color for the message */
+    font-weight: bold;
+  }
+  

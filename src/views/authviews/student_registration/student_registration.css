@@ -1,0 +1,74 @@
+/* student_registration.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #1f2937;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  form {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  form div {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    color: #4b5563;
+    margin-bottom: 5px;
+    font-weight: 600;
+  }
+  
+  input, select {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #3b82f6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #2563eb;
+  }
+  
+  @media (max-width: 600px) {
+    form {
+      width: 90%;
+    }
+  }
+  

@@ -1,0 +1,133 @@
+.job-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center vertically */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 3% auto 3% auto;
+    position: relative;
+    width: calc(100% - 33%);
+    box-sizing: border-box;
+  }
+  
+  .logo-container {
+    flex: 0 0 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .company-logo {
+    width: 80%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .job-info {
+    flex: 1;
+    margin-left: 16px;
+  }
+  
+  .job-header {
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+  
+  .company-name {
+    font-weight: bold;
+  }
+  
+  .job-type {
+    font-weight: normal;
+  }
+  
+  .job-role, .job-package, .job-location, .job-duration {
+    margin-top: 8px;
+  }
+  
+  .apply-by {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    font-weight: bold;
+  }
+  
+  .apply-button {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: auto;
+    height: auto;
+    white-space: nowrap;
+  }
+  
+  .apply-button:hover {
+    background-color: #0056b3;
+  }
+
+  .action-buttons {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    display: flex;
+    gap: 8px;
+  }
+
+  .action-button a {
+    color: inherit;  /* Inherit color from parent button */
+    text-decoration: none;  /* Remove underline */
+  }
+  
+  .action-button {
+    padding: 8px 16px;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: auto;
+    height: auto;
+    white-space: nowrap;
+  }
+  
+  .action-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .action-button.view {
+    background-color: #ffc107; /* Yellow */
+    color: black;
+  }
+
+  .apply-button.view {
+    background-color: #ffc107; /* Yellow */
+    color: black;
+  }
+  
+  .action-button.view:hover {
+    background-color: #e0a800; /* Darker Yellow */
+  }
+  
+  .action-button.update {
+    background-color: #28a745; /* Green */
+    color: white;
+  }
+  
+  .action-button.update:hover {
+    background-color: #218838; /* Darker Green */
+  }
+  
+  .action-button.delete {
+    background-color: #dc3545; /* Red */
+    color: white;
+  }
+  
+  .action-button.delete:hover {
+    background-color: #c82333; /* Darker Red */
+  }
